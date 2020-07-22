@@ -48,8 +48,8 @@ bot.on('message', msg => {
   });
 
   bot.on('message', msg => {
-    if (msg.content === 'Time and Date') {
-      msg.reply(`var date = new Date();`);
+    if (msg.content === '?!Chat?') {
+      msg.reply(`#free-chat`);
     }
   });  
 
